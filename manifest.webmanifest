@@ -1,0 +1,17 @@
+{
+  "name": "MONO STUDIO · 뉴스와 카드뉴스",
+  "short_name": "MONO STUDIO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f5f3",
+  "theme_color": "#141b1c",
+  "icons": [
+    {
+      "src": "./assets/mono-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
