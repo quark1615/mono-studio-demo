@@ -1,0 +1,43 @@
+name: MONO STUDIO - 08:00 KST news
+on:
+  schedule:
+    # UTC 23:00 = Korea 08:00 the following day. GitHub scheduling can be delayed.
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_news.py'
+      - '.github/workflows/daily-news.yml'
+      - 'index.html'
+permissions:
+  contents: write
+concurrency:
+  group: mono-daily-news
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check parser syntax
+        run: python -m py_compile scripts/fetch_news.py
+      - name: Collect last 24h public RSS headlines and own cover graphics
+        run: python scripts/fetch_news.py
+      - name: Commit fresh news to main for GitHub Pages
+        run: |
+          git add data/latest_news.json assets/editorial/
+          if ! git diff --staged --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: refresh daily public RSS metadata'
+            git push origin HEAD:main
+          else
+            echo 'No updates, keeping previous feed.'
+          fi
