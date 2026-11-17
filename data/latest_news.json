@@ -1,0 +1,15 @@
+{
+  "schema_version": 5,
+  "generated_at": null,
+  "count": 0,
+  "counts": {
+    "shopping": 0,
+    "lifestyle": 0,
+    "food": 0,
+    "entertainment": 0
+  },
+  "ai_enabled": false,
+  "rights_policy": "discovery_only_no_article_photo_reuse",
+  "items": [],
+  "errors": []
+}
