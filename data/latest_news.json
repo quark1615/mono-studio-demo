@@ -1,8 +1,8 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-11-17T14:47:37.012906+00:00",
-  "window_from": "2026-11-16T14:47:37.012906+00:00",
-  "window_to": "2026-11-17T14:47:37.012906+00:00",
+  "generated_at": "2026-11-17T14:49:43.105789+00:00",
+  "window_from": "2026-11-16T14:49:43.105789+00:00",
+  "window_to": "2026-11-17T14:49:43.105789+00:00",
   "count": 40,
   "counts": {
     "shopping": 20,
@@ -679,6 +679,25 @@
       "cover_image_notice": "자체 생성 추상 그래픽 · 기사 사진이 아님"
     },
     {
+      "id": "rss-59d23814bf36c124",
+      "theme": "entertainment",
+      "region": "글로벌",
+      "category": "컬처",
+      "title": "King Charles reaction goes viral as Robert Pattinson becomes first Bond to serve under male monarch",
+      "source": "The News International",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbndILVBpQjNVSWtUMFJObU9zQVFXRjhLOWdieXpMbzBSUGxPWnZfX3FiZXpEXzdXQ0s1TEtEQ0VRR1R5YmdoV1lKQ1F4c0lkUmhUNnNrdjg2SGpqMzVORUhuTFBIa01IbjJiQXlpZWdpQTlWVE5fUkJoSjExZHBiSDlYZnFHMW50SmZtQUpXeUdmQ0Z2bmExMmNmQW80bklZSVZWSDdUNTVXa0tmdnUwOVludjNrdkZGd0tqZGhvUFhRMlFrSjB0OUpNMkx1Q0ZmVVJXMU0xdDlqb3BNSDc2Tml30gHeAUFVX3lxTE13ZUFEaDkyMkxFS0o5RVBVSllnZjZPMUlUYlJkcm1xX1A2bGRpSWhFU2ZPRGN3dkNvR1RmUk5WY01JSS1RT3lDcG5KX3RfVW5hcFVDYThfQU5ETlZNeHNpeUV4OEE4ZngtUVdPVjNDNGJWREtlZmMyQkFMRUl1bmZ2SHR3REpTZjNrTU4zYjNLcFNsMjk5NnRmSzhvelNUYzFwZWQtdDQyWTdMeEVUcXZOb3gtQWxHTllZNnNDZHdQNHl0UVRrT3BkaVJISldocnNRLVd4QjVUSTZmM0FKZw?oc=5",
+      "published": "2026-11-17T14:12:02+00:00",
+      "summary": "RSS 헤드라인 발견 항목입니다. 원문을 열어 핵심 사실을 확인한 뒤 카드 문구를 완성하세요.",
+      "factcheck": "required",
+      "license_status": "unknown",
+      "image_usage_allowed": false,
+      "image_origin": "no_article_image",
+      "discovery_provider": "Google News RSS",
+      "cover_image": "./assets/editorial/rss-59d23814bf36c124.svg",
+      "cover_image_rights": "studio_original_abstract",
+      "cover_image_notice": "자체 생성 추상 그래픽 · 기사 사진이 아님"
+    },
+    {
       "id": "rss-13ea4f3011a09468",
       "theme": "entertainment",
       "region": "글로벌",
@@ -732,25 +751,6 @@
       "image_origin": "no_article_image",
       "discovery_provider": "Google News RSS",
       "cover_image": "./assets/editorial/rss-1ad4f16b350b1ed1.svg",
-      "cover_image_rights": "studio_original_abstract",
-      "cover_image_notice": "자체 생성 추상 그래픽 · 기사 사진이 아님"
-    },
-    {
-      "id": "rss-b976bbe2b6756a58",
-      "theme": "entertainment",
-      "region": "글로벌",
-      "category": "컬처",
-      "title": "Jon Stewart Is ‘Angry’ With Robert Pattinson’s James Bond Casting: ‘Enough’s Enough’",
-      "source": "SuperHeroHype",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWXM3UVdfQXBGVWRBcXRtbmN5azRpUnV0Z2gyYkdvQXZNOEpSR2VnUmFyS3lWNlpjSFBEcG5HQ3EyVlJDT2NYTl9RWi11RDBGZVpXNXRGNmp0WU5ZWV9IdmZhLUhwZHVQcTdBTm81RFQtZ2pIZl9Pd3ZQMWt1Y2dsY0I2NV8wQ2picTdsRDFBT20xZEhVQWRNMjJPTHlWZ2RLZ1RF0gGoAUFVX3lxTFBwV3kyaTcwVmF3LS1WY3ZzNmZMaUhnS2JDMFdqM0NoU2hhMXFEa3RtalJsazVhWDU5LWNyUGNfbFhja1ptUFd0MjVGai1SdFhOZURZYUhyc3ZROTg0cWN6d2F6NkFEWXd1MHNDNDhxckxUNmc3R0RuZGxqdXZzOTI4Y2s4bDFlUktjMm5kdmtMQ1RNajRGX3lMNHZCaWhpS0pvb0V4NDV6NQ?oc=5",
-      "published": "2026-11-17T12:35:00+00:00",
-      "summary": "RSS 헤드라인 발견 항목입니다. 원문을 열어 핵심 사실을 확인한 뒤 카드 문구를 완성하세요.",
-      "factcheck": "required",
-      "license_status": "unknown",
-      "image_usage_allowed": false,
-      "image_origin": "no_article_image",
-      "discovery_provider": "Google News RSS",
-      "cover_image": "./assets/editorial/rss-b976bbe2b6756a58.svg",
       "cover_image_rights": "studio_original_abstract",
       "cover_image_notice": "자체 생성 추상 그래픽 · 기사 사진이 아님"
     },
